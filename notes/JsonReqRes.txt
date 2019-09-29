@@ -1,0 +1,48 @@
+{
+   "request":{
+      "clientInfo":{
+         "appId":"1",
+         "groupId":"4",
+         "userId":"",
+         "password":"Sample"
+      },
+      "userInfo":{
+         "appId":"GIT",
+         "groupId":"GITGRP001",
+         "userId":"GIUSR0006",
+         "name":"Test1503",
+         "address":"Bedok Res",
+         "country":"SG",
+         "roleId":"1001",
+         "email":"tes1503@gmail.com",
+         "password":"password",
+         "createdDate":"2019-05-02T03:22:45",
+         "modifiedDate":"2019-05-02T03:22:45"
+      }
+   }
+}
+===============================================================
+
+{
+    "response": {
+        "statusCode": {
+            "responseCode": "100",
+            "responseMessage": "Created successfully"
+        },
+        "userInfo": {
+            "appId": "GIT",
+            "groupId": "GITGRP001",
+            "userId": "GIUSR0006",
+            "name": "Test1503",
+            "address": "Bedok Res",
+            "country": "SG",
+            "roleId": "1001",
+            "email": "tes1503@gmail.com",
+            "password": "password",
+            "createdDate": "2019-05-02T03:22:45",
+            "modifiedDate": "2019-05-02T03:22:45"
+        }
+    }
+}
+
+=====================================================
