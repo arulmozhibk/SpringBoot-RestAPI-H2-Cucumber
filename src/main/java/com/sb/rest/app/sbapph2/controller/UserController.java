@@ -23,10 +23,8 @@ public class UserController {
 
     @Autowired
     UserDAO userDao;
-
     @PostMapping("/userlist")
     public List<User> getAllUsers() {
-
         List<User> userList = new ArrayList<>();
         userList = userDao.findAllUser();
         System.out.println("Controller size : " + userList.size());
