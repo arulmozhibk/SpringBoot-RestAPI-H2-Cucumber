@@ -1,0 +1,26 @@
+docker -v
+
+#Build images
+docker build -f Dockerfile -t sbappsnapshot .
+docker run -p 8040:8040 sbappsnapshot
+
+#login
+docker login -u "arulmozhibk" -p "#Bala9500" docker.io
+
+#list docker images
+docker images
+
+$ docker images
+REPOSITORY            TAG                 IMAGE ID            CREATED             SIZE
+sbappsnapshot         latest              8e160518f27f        20 minutes ago      526MB
+openjdk               8                   57c2c2d2643d        34 hours ago        488MB
+
+#tag/push docker images
+docker tag 8e160518f27f arulmozhibk/springbootdocker
+docker push arulmozhibk/springbootdocker
+
+$ docker push arulmozhibk/springbootdocker
+The push refers to repository [docker.io/arulmozhibk/springbootdocker]
+d27c5ba8459c: Pushed
+
+

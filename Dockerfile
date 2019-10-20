@@ -1,0 +1,4 @@
+FROM openjdk:8
+ADD target/SBAppH2-0.0.1-SNAPSHOT.jar SBAppH2-0.0.1-SNAPSHOT.jar
+EXPOSE 8040
+ENTRYPOINT ["java","-jar", "SBAppH2-0.0.1-SNAPSHOT.jar"]
