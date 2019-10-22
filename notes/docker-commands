@@ -5,7 +5,7 @@ docker build -f Dockerfile -t sbappsnapshot .
 docker run -p 8040:8040 sbappsnapshot
 
 #login
-docker login -u "arulmozhibk" -p "#Bala9500" docker.io
+docker login -u "arulmozhibk" -p "*****" docker.io
 
 #list docker images
 docker images

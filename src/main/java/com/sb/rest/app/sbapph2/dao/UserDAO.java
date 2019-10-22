@@ -1,7 +1,6 @@
 package com.sb.rest.app.sbapph2.dao;
 
 import com.sb.rest.app.sbapph2.model.User;
-import com.sb.rest.app.sbapph2.model.dto.UserDto;
 import com.sb.rest.app.sbapph2.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
